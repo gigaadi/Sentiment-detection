@@ -1,34 +1,42 @@
-# Sentiment-detection
-🎯 YouTube Comment Sentiment Analyzer
-A Streamlit-based web app that performs sentiment analysis on YouTube video comments and user-entered text using Natural Language Processing (NLP). This project helps educators and content creators gain insights into audience feedback on educational course videos.
+# 🎯 YouTube Comment Sentiment Analyzer
 
-🔍 Features
-📺 YouTube Video Analysis
-Enter any YouTube course video URL and the app will:
+A **Streamlit-based** web app that performs **sentiment analysis** on YouTube video comments and user-entered text using **Natural Language Processing (NLP)**. This project helps educators and content creators gain insights into audience feedback on educational course videos.
 
-Extract up to 100 English comments using the YouTube Data API
+---
 
-Perform sentiment analysis (positive, negative, neutral)
+## 🔍 Features
 
-Display an overall sentiment summary
+- 📺 **YouTube Video Analysis**  
+  Enter any YouTube course video URL and the app will:
+  - Extract up to 100 English comments using the YouTube Data API
+  - Perform sentiment analysis (positive, negative, neutral)
+  - Display an overall sentiment summary
 
-💬 Single Comment Analyzer
-Type any text comment and get an instant sentiment classification.
+- 💬 **Single Comment Analyzer**  
+  Type any text comment and get an instant sentiment classification.
 
-📊 Language Detection
-Ensures only English comments are analyzed using langdetect.
+- 🌐 **Language Detection**  
+  Ensures only English comments are analyzed using `langdetect`.
 
-🧠 NLP with TextBlob
-Uses TextBlob for calculating comment polarity (sentiment strength).
+- 🧠 **NLP with TextBlob**  
+  Uses `TextBlob` for calculating comment polarity (sentiment strength).
 
-🛠️ Tech Stack
-Frontend/UI: Streamlit
+---
 
-NLP: TextBlob
+## 🛠️ Tech Stack
 
-Language Detection: langdetect
+- **Frontend/UI:** Streamlit  
+- **NLP:** TextBlob  
+- **Language Detection:** langdetect  
+- **YouTube API:** Google API Client  
+- **Programming Language:** Python  
 
-YouTube API: Google API Client
+---
 
-Programming Language: Python
+## 📦 Installation
 
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/youtube-sentiment-analyzer.git
+   cd youtube-sentiment-analyzer
