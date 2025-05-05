@@ -33,10 +33,3 @@ A **Streamlit-based** web app that performs **sentiment analysis** on YouTube vi
 
 ---
 
-## 📦 Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/youtube-sentiment-analyzer.git
-   cd youtube-sentiment-analyzer
